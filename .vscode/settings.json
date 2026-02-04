@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.h": "c",
+        "*.c": "c"
+    },
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "F5环境继续": "请使用Keil MDK编译，VSCode仅作编辑器使用"
+}

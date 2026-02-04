@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "STM32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "e:/Project/icm42688_quaternion/User",
+                "e:/Project/icm42688_quaternion/Hardware",
+                "e:/Project/icm42688_quaternion/System",
+                "e:/Project/icm42688_quaternion/Library",
+                "e:/Project/icm42688_quaternion/Start"
+            ],
+            "defines": [
+                "STM32F10X_HD",
+                "USE_STDPERIPH_DRIVER"
+            ],
+            "compilerPath": "D:/Path/c_c++/mingw64/bin/gcc.exe",
+            "cStandard": "c99",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
