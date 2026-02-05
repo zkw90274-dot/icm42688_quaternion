@@ -79,6 +79,8 @@ virtualFolder:
         - path: ../Hardware/IMU_Kalman.c
         - path: ../Hardware/quaternion.c
         - path: ../Hardware/quaternion.h
+        - path: ../Hardware/ak09911c.c
+        - path: ../Hardware/ak09911c.h
       folders: []
     - name: User
       files:
