@@ -1,0 +1,50 @@
+# Auto detect text files and normalize line endings
+* text=auto
+
+# Source files - use LF (Unix style)
+*.c text eol=lf
+*.h text eol=lf
+*.cpp text eol=lf
+*.hpp text eol=lf
+*.cc text eol=lf
+*.cxx text eol=lf
+*.s text eol=lf
+*.S text eol=lf
+
+# Documentation
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Keil project files - use CRLF (Windows style)
+*.uvprojx text eol=crlf
+*.uvoptx text eol=crlf
+*.uvguix* binary
+
+# Build outputs
+*.o binary
+*.obj binary
+*.exe binary
+*.bin binary
+*.hex binary
+*.lib binary
+*.a binary
+
+# Archives
+*.zip binary
+*.rar binary
+*.7z binary
+
+# Images
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+
+# Fonts
+*.ttf binary
+*.otf binary
+*.woff binary
